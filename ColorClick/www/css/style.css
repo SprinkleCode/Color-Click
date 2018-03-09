@@ -8,16 +8,14 @@ h2,h3,h4,p{
         font-family: 'Pacifico', cursive;
         font-size: 5.5vw;
     }
-h3,h4,{
-    font-size: 5.5vw;
-}
+
 .btn{
     font-size: 4vw;
 }
 
 @media only screen and (orientation: portrait) {
     body{
-        background-image: url("../images/pattern.png");
+        background-image: url("../img/pattern.png");
         background-repeat: repeat;
         background-attachment: fixed;
         background-position: center;
@@ -76,6 +74,9 @@ h3,h4,{
         display: none; 
     }
     #gameprogress{
+        display: none;
+    }
+    #gamesettings{
         display: none;
     }
     #orientationmessage{

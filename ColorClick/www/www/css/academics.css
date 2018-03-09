@@ -1,0 +1,21 @@
+#firsttitle1{
+    color: #F45866;
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size:50px;
+}
+#titles1{
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: #AE79C9;
+    font-size:40px;
+}
+#list{
+    color: white;
+    text-align:justify;
+    font-family: 'Open Sans', sans-serif;
+    margin-left:15%;
+    font-size:20px;
+}

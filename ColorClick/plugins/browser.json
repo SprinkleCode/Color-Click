@@ -1,0 +1,49 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.sprinklecode.colorclick"
+    }
+  }
+}

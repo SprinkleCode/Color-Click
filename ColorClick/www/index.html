@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <!-- Include meta tag to ensure proper rendering and touch zooming -->
+        <!--head-->
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+        <script src="components/loader.js"></script>
+        
+        <script type="text/javascript" src="components/monaca-core-utils/script.js"></script>
+        
+        <link rel="stylesheet" href="components/loader.css">
+        <script src="components/script.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    	<br />
+        <audio loop id="sound">
+             <source src="audio/ToyMusic.mp3" type="audio/mpeg">
+        </audio>
+        <div class="container-fluid align-middle" id="orientationmessage">
+            <h1 id="message">Hey,Turn Me Around!</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="title" class="col-lg-12" style="background-color: skyblue; color: white; text-align: center;">
+                        <h1>Color Click</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id="gamestats" class="col-lg-12">
+                        
+                        <h3>Points: &nbsp;<span id="gamepoints">0</span></h3>
+                        <h3>Color Changes: &nbsp;<span id="timesColorChange">0</span><br /></h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12" style="text-align: center;"> 
+                    <div class="svg-container" id="circlearea">
+                        <svg id="clickarea" version="1.1" viewBox="0 0 500 500" width="70%">
+                          <circle onClick="shapeClick(1)" class="svg-content" id="cir" cx="50%" cy="50%" r="40%" stroke="lightgrey" stroke-width="1"  fill="yellow" />
+                        </svg>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="levelup" class="col-lg-12">
+                    <h3>Next Color Change: &nbsp;<span id="colorCost">10</span> points</h3>
+                    <button type="button" class="btn btn-info btn-lg" onClick="buyColor()">New Color</button>  
+                </div>
+            </div>
+        </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="gamesettings">
+                            <h4>Game Settings</h4>
+                            <button type="button" class="btn btn-success" onClick="play_pause()">Sound</button>
+                            <button type="button" class="btn btn-success" onClick="save()">Save</button>
+                            <button type="button" class="btn btn-warning" onClick="load()">Load</button>
+                            <button type="button" class="btn btn-danger" onClick="startOver()">Start Over</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </body>
+</html>

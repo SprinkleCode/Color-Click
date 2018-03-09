@@ -1,0 +1,62 @@
+
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+
+
+
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+body {
+    background-color: #4EFFEF;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+}
+
+p {
+     font-family: 'Abril Fatface', cursive;
+}
+.col-md-3{
+    text-align: left;
+
+}
+
+
+
+religion2 {
+    width:.5%;
+    margin: auto;
+
+}
+
+#carryingyourself{
+    text-align: center;
+}
+
+#gif {
+    text-align: center;
+}
+
+#respect{
+    text-align: center;
+}
+
+#religion{
+    text-align: center;
+}
+
+#idpar{
+    font-family: 'Abril Fatface', cursive;
+}
+

@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.sprinklecode.colorclick" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>ColorClick</name>
+    <name>Color Click</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Color Click is an idle click game
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
+    <author email="sprinklecode@gmail.com" href="http://colorclick.sprinklecode.com">
         PhoneGap Team
     </author>
     <content src="index.html" />
